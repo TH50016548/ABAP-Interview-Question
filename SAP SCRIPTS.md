@@ -37,6 +37,7 @@ Leading sign can be omitted by using ‘S’ with the Sap Script symbol i.e. &sy
 
 ### 8.	How to debug a SAP Script?
 To switch on the debugger for SAP Script use the menu path Utilities->Debugger or use the program RSTXDBUG.
+
 ![dubgger](/images/script_debugger.png)
 
 ### 9.	What are the different function modules used in SAP Script?
@@ -80,6 +81,7 @@ SE78 or RSTXLDMC
 
 ### 15. How Can You Copy Forms From One Client To Other?
 SE71, Utilities -> Copy from client
+
 ![client copy](/images/script_copy_client.png)
 
 ### 16. How do you Create Boxes In Sap Script?
@@ -88,6 +90,7 @@ BOX XPOS ‘1’ CM YPOS ‘1’ CM WIDTH ‘10’ CM HEIGHT ‘10’ CM FRAME 1
 ### 17. How To Insert Symbols In Smart Form?
 Select the Text node.
 Go to menu Include->Characters->SAP Symbols.
+
 ![symbols 1](/images/sap_symbols_1.png)
 ![symbols 2](/images/sap_symbols_2.png)
 
