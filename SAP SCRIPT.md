@@ -40,15 +40,19 @@ To switch on the debugger for SAP Script use the menu path Utilities->Debugger o
 ### 10.	How to call a subroutine in SAP Script?
 Use PERFORM to call a subroutine.
 Syntax for PERFORM statement is as follows
-> PERFORM <subroutine> IN PROGRAM <program>
-> USING &INVAR1&
-> USING &INVAR2&
-> CHANGING &OUTVAR1&
-> CHANGING &OUTVAR2&
-> ENDPERFORM
+```
+PERFORM <subroutine> IN PROGRAM <program>
+USING &INVAR1&
+USING &INVAR2&
+CHANGING &OUTVAR1&
+CHANGING &OUTVAR2&
+ENDPERFORM
+```
 
 Syntax for FORM statement in the program is as follows.
-> FORM <subroutine> TABLES IN_TAB STRUCTURE ITCSY
-> OUT_TAB STRUCTURE ITCSY.
-> ...
-> ENDFORM.
+```abap
+FORM <subroutine> TABLES IN_TAB STRUCTURE ITCSY
+OUT_TAB STRUCTURE ITCSY.
+...
+ENDFORM.
+```
