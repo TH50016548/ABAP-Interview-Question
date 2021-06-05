@@ -1,5 +1,7 @@
 # ABAP-Interview-Question
 
+## Questions on SAP SCRIP!
+
 ### 1.  What is the T Code for SAP Script forms?
 SE71 is the T Code for SAP Script forms.
 
@@ -19,6 +21,7 @@ PROTECT & ENDPROTECT is a command used to protect a paragraph against a page bre
 *	MAIN – Main window
 *	VAR – Variable window
 *	CONST – Constant window
+![photo](/images/script_window_types.png)
 
 ### 5.	How many MAIN windows are allowed in SAP script?
 99 main windows are allowed in SAP script.
@@ -58,3 +61,36 @@ OUT_TAB STRUCTURE ITCSY.
 ...
 ENDFORM.
 ```
+### 11. What Is The Table Name That Will Contain All The Script Form Names And Print Program Names?
+TNAPR
+
+### 12. Can You Create A Script With Out A Main Window?
+No
+
+### 13. How To Create Standard Text In Sapscripts?
+SO10
+
+### 14. How To Download/upload Image Sapscripts From & To Your Pc?
+SE78 or RSTXLDMC
+
+### 15. How Can You Copy Forms From One Client To Other?
+SE71, Utilities -> Copy from client
+
+### 16. How To Debug A Script?
+In the form Utilities->Activate debugger
+Using Report -  RSTXDBUG 
+
+### 17. How do you Create Boxes In Sap Script?
+BOX XPOS ‘1’ CM YPOS ‘1’ CM WIDTH ‘10’ CM HEIGHT ‘10’ CM FRAME 10 TW
+
+### 18. How To Insert Symbols In Smart Form?
+Select the Text node.
+Go to menu Include->Characters->SAP Symbols.
+
+### 19. How Do Print You Number Pages In Sap Script Layout Outputs?
+&page&
+&next_Page&
+
+### 20. Where Do We Define Tab Space For Data In Sapscript?
+When defining the paragraph for the text element we can define the TABS there. There is parameter called TABS to be defined in paragraph definition.
+
