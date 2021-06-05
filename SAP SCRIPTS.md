@@ -37,6 +37,7 @@ Leading sign can be omitted by using ‘S’ with the Sap Script symbol i.e. &sy
 
 ### 8.	How to debug a SAP Script?
 To switch on the debugger for SAP Script use the menu path Utilities->Debugger or use the program RSTXDBUG.
+![dubgger](/images/script_debugger.png)
 
 ### 9.	What are the different function modules used in SAP Script?
 *	START_FORM
@@ -59,7 +60,8 @@ ENDPERFORM
 
 Syntax for FORM statement in the program is as follows.
 ```abap
-FORM <subroutine> TABLES IN_TAB STRUCTURE ITCSY
+FORM <subroutine> 
+LES IN_TAB STRUCTURE ITCSY
 OUT_TAB STRUCTURE ITCSY.
 ...
 ENDFORM.
@@ -78,6 +80,7 @@ SE78 or RSTXLDMC
 
 ### 15. How Can You Copy Forms From One Client To Other?
 SE71, Utilities -> Copy from client
+![client copy](/images/script_copy_client.png)
 
 ### 16. How do you Create Boxes In Sap Script?
 BOX XPOS ‘1’ CM YPOS ‘1’ CM WIDTH ‘10’ CM HEIGHT ‘10’ CM FRAME 10 TW
@@ -102,6 +105,7 @@ There is parameter called TABS to be defined in paragraph definition.
 Window | Page Window
 ---- | ----
 All the windows are created in this particular section. We can give window name and its description. | In page window, we map the already created windows on the pages as well as we can give margins and height width for the windows.
+![window vs page window](/images/script_window.png) | ![window vs page window](/images/script_page_windows.png)
 
 ### 21. How Do We Define Text Symbols?
 Using the control command DEFINE &xy& = ‘100’.
@@ -131,5 +135,7 @@ Call function CLOSE-from
 /: BOX WIDTH '15' CM HEIGHT '2' CM INTENSITY 10
 
 ### 26. How to display barcodes in SAP Scrtips?
-a. Create a Character format in SAP Script.
-b. Choose the Bar Code for the character format. 
+-   Create a Character format in SAP Script.
+-   Choose the Bar Code for the character format.
+
+![barcode](/images/script_barcode.png)
