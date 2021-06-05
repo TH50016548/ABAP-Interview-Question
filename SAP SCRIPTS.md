@@ -68,7 +68,7 @@ ENDFORM.
 TNAPR
 
 ### 12. Can You Create A Script With Out A Main Window?
-No
+YES!!
 
 ### 13. How To Create Standard Text In Sapscripts?
 SO10
@@ -89,8 +89,8 @@ Go to menu Include->Characters->SAP Symbols.
 ![symbols 2](/images/sap_symbols_2.png)
 
 ### 18. How Do Print You Number Pages In Sap Script Layout Outputs?
-&page&
-&next_Page&
+&PAGE&
+&NEXT-PAGE&
 
 ### 19. Where Do We Define Tab Space For Data In Sapscript?
 When defining the paragraph for the text element we can define the TABS there. 
@@ -102,3 +102,34 @@ There is parameter called TABS to be defined in paragraph definition.
 Window | Page Window
 ---- | ----
 All the windows are created in this particular section. We can give window name and its description. | In page window, we map the already created windows on the pages as well as we can give margins and height width for the windows.
+
+### 21. How Do We Define Text Symbols?
+Using the control command DEFINE &xy& = ‘100’.
+
+### 22. What is SAP Script and layout set?
+* SAP Scripts is text management system which is integrated into SAP System. It is used for many word processing tasks in SAP.
+* Layout set contains various elements which controls the layout of the page.
+    Those Elements are -
+    * Header
+    * Pages
+    * Windows
+    * Page Windows
+    * Text Elements
+    * Paragraph Formats
+    * Character Formats
+
+### 23. What are the components of SAP Script?
+Layout set, symbols, function modules like open_form, write_form, close form, print program/driver program etc.
+
+### 24. What are the ABAP/4 Commands that link to a layout set?
+Call function OPEN-form.
+Call function WRITE-from.
+Call function CLOSE-from
+
+### 25. How to create shaded box?
+/: POSITION XORIGIN '2' CM YORIGIN '7.5' CM 
+/: BOX WIDTH '15' CM HEIGHT '2' CM INTENSITY 10
+
+### 26. How to display barcodes in SAP Scrtips?
+a. Create a Character format in SAP Script.
+b. Choose the Bar Code for the character format. 
