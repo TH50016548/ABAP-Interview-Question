@@ -12,6 +12,7 @@ PROTECT & ENDPROTECT is a command used to protect a paragraph against a page bre
 *	Standard symbols
 *	Program symbols
 *	Text symbols
+[More about symbols in SAP SCRIPT](https://www.samplecodeabap.com/sapscript-symbols-and-formatting-options/)
 
 ### 4.	What are the different window types in SAP Script?
 *	MAIN – Main window
