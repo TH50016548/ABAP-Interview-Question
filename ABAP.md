@@ -15,12 +15,15 @@ PROTECT & ENDPROTECT is a command used to protect a paragraph against a page bre
 *	Program symbols
 *	Text symbols
 
+![symbols](/images/type_of_symbols.png)
+
 [More about symbols and formatting in SAP SCRIPT](https://www.samplecodeabap.com/sapscript-symbols-and-formatting-options/)
 
 ### 4.	What are the different window types in SAP Script?
 *	MAIN – Main window
 *	VAR – Variable window
 *	CONST – Constant window
+
 ![photo](/images/script_window_types.png)
 
 ### 5.	How many MAIN windows are allowed in SAP script?
@@ -76,21 +79,19 @@ SE78 or RSTXLDMC
 ### 15. How Can You Copy Forms From One Client To Other?
 SE71, Utilities -> Copy from client
 
-### 16. How To Debug A Script?
-In the form Utilities->Activate debugger
-Using Report -  RSTXDBUG 
-
-### 17. How do you Create Boxes In Sap Script?
+### 16. How do you Create Boxes In Sap Script?
 BOX XPOS ‘1’ CM YPOS ‘1’ CM WIDTH ‘10’ CM HEIGHT ‘10’ CM FRAME 10 TW
 
-### 18. How To Insert Symbols In Smart Form?
+### 17. How To Insert Symbols In Smart Form?
 Select the Text node.
 Go to menu Include->Characters->SAP Symbols.
+![symbols 1](/images/sap_symbols_1.png)
+![symbols 2](/images/sap_symbols_2.png)
 
-### 19. How Do Print You Number Pages In Sap Script Layout Outputs?
+### 18. How Do Print You Number Pages In Sap Script Layout Outputs?
 &page&
 &next_Page&
 
-### 20. Where Do We Define Tab Space For Data In Sapscript?
+### 19. Where Do We Define Tab Space For Data In Sapscript?
 When defining the paragraph for the text element we can define the TABS there. There is parameter called TABS to be defined in paragraph definition.
-
+![tab space](/images/tabs_space.png)
