@@ -95,6 +95,7 @@ Go to menu Include->Characters->SAP Symbols.
 ### 19. Where Do We Define Tab Space For Data In Sapscript?
 When defining the paragraph for the text element we can define the TABS there. 
 There is parameter called TABS to be defined in paragraph definition.
+
 ![tab space](/images/tabs_space.png)
 
 ### 20. What is the difference between a window and a page window?
