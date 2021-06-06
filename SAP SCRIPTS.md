@@ -142,3 +142,8 @@ Call function CLOSE-from
 -   Choose the Bar Code for the character format.
 
 ![barcode](/images/script_barcode.png)
+
+### 27. How to find driver programs given the name of SAP script?
+First you need to goto Form-->check-->text, you will get one small box hit on enter where you can see the driver program name.
+[SAP Script Driver Program Name](/images/script_driver_program1.png)
+[SAP Script Driver Program Name](/images/script_driver_program2.png)
