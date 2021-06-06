@@ -125,4 +125,28 @@ There are four types of windows in smartforms.
 
 [exceptions in smartforms](/images/smartforms_exceptions.png)
 
- 
+### 23. What are important trnsacodes used for smartforms?
+SMARTFORMS - SAP Smart Forms Basis
+SMARTFORM_TRACE - SAP Smart Forms: Trace Basis -
+SMARTFORM_CODE - SAP Smart Forms: Target Coding Basis -
+NACE - WFMC: Initial Customizing Screen SD - Output Determination
+SP01 - Output Controller Basis - Print and Output Management
+SO10 - SAPscript: Standard Texts Basis
+SE78 - Administration of Form Graphics Basis -
+SPAD - Spool Administration Basis - Print and Output Management
+SE63 - Translation: Initial Screen Basis - Translation
+VF03 - Display Billing Document SD - Billing
+SE73 - SAPscript Font Maintenance Basis
+SMARTSTYLES - SAP Smart Styles Basis
+SFTRACE - SAP Smart Forms: Trace
+
+### 24. What are the various text formatting options in Smartforms?
+&symbol(Z)& Omit Leading Zeros
+&symbol(S)& Omit Leading Sign
+&symbol(<)& Display Leading Sign to the Left
+&symbol(>)& Display Leading Sign to the Right
+&symbol(C)& Compress Spaces
+&symbol(.N)& Display upto N decimal places
+&symbol(T)& Omit thousands separator
+&symbol(R)& Right justified
+&symbol(I)& Suppress output of the initial value
