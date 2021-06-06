@@ -1,6 +1,6 @@
 # ABAP-Interview-Question
 
-## Questions on SAP SCRIP!
+## Questions on SAP SCRIPT
 
 ### 1.  What is the T Code for SAP Script forms?
 SE71 is the T Code for SAP Script forms.
