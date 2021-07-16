@@ -11,34 +11,28 @@ Author: Nikhil Mishra
 ### 3. What is the difference between SKIP and RESERVE?
   SKIP provides empty space between lines, while RESERVE executes a page break on the current page if the number of lines between current line and the page footer is less than the number specified in RESERVE statement.
 
-What is the difference between SKIP and NEW-LINE?
-
+### 4. What is the difference between SKIP and NEW-LINE?  
 SKIP generates a blank line, while the NEW-LINE causes the control to move to next line.
 
-What is hotspot?
-
+### 5. What is hotspot?  
 Hotspot is an area on the list where the mouse pointer turns into an upright hand symbol. A single click on the hotspot does the same thing as a double-click.
 
-What does HIDE statement do?
-
+### 6. What does HIDE statement do?  
 The HIDE statement hides the contents of the line along with the line numbers in a system defined HIDE area. This is used in interactive reporting.
 
-What are the events in classical reports?
+### 7. What are the events in classical reports?  
+- INITIALIZATION
+- AT SELECTION-SCREEN
+- START-OF-SELECTION
+- END-OF-SELECTION
+- TOP-OF-PAGE
+- END-OF-PAGE
 
-INITIALIZATION
-AT SELECTION-SCREEN
-START-OF-SELECTION
-END-OF-SELECTION
-TOP-OF-PAGE
-END-OF-PAGE
-How many detail lists can be created in interactive reporting?
-
+### 8. How many detail lists can be created in interactive reporting?  
 20
 
-What is the name of the system variable that holds the contents of the selected line in interactive reporting?
-
+### 9. What is the name of the system variable that holds the contents of the selected line in interactive reporting?
 SY-LISEL
 
-Can we set page headers to details lists?
-
+### 10. Can we set page headers to details lists?  
 Yes. Use TOP-OF-PAGE DURING LINE-SELECTION event.
