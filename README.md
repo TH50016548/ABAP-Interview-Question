@@ -10,4 +10,4 @@ Click on the blue texts given below.
 3. [26 Questions on SAP SCRIPT](/src/SAP%20SCRIPTS.md)
 4. [Questions on SMARTFORMS](/src/SMARTFORMS.md)  
 5. [IBM SAP ABAP Online Test Questions](/src/ibm-abap-online-test.md)
-6. [IBM SAP ABAP Online Test Questions](/src/Interview Questions.md)
+6. [Random Questions on SAP ABAP](/src/Interview%Questions.md)
